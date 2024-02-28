@@ -1,0 +1,47 @@
+body{
+  width: 1000px;
+  margin:0 auto;
+}
+.about-us{
+  text-align: center;
+  color:white;
+  background-color:  rgb(126, 210, 126);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  column-gap:3px;
+  
+}
+.top-left{
+  width: 400px;
+  background-color:  rgb(126, 210, 126);
+  text-align: left;
+}
+.top-left:hover{
+    box-shadow: 0px 10px 10px 0px #CCCC;
+}
+.top-btn{
+  display: flex;
+  justify-content: space-around;
+}
+.btn-cls{
+  padding: 10px 25px;
+  color: black;
+  background-color: white;
+  border: greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.top-bottom{
+  margin-left: 10px;
+}
+#content-div-body{
+  color: whitesmoke;
+}
